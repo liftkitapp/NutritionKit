@@ -4,7 +4,7 @@ import Toolbox
 
 public struct Barcode: Codable, Hashable {
     /// The barcode data.
-    let data: String
+    public let data: String
     
     /// The corners of the barcode.
     let corners: [CGPoint]
