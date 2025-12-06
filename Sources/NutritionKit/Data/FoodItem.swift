@@ -3,10 +3,10 @@ import Foundation
 
 public struct FoodItem {
     /// The name of this product.
-    var productName: String?
+    public var productName: String?
     
     /// The nutritional facts for this food item.
-    var nutrition: NutritionLabel?
+    public var nutrition: NutritionLabel?
 }
 
 // MARK: Hashable & Codable
